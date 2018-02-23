@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    class GradeStatistics
+   public class GradeStatistics
     {
         public GradeStatistics()
         {
             HighestGrade = 0;
             lowestGrade = float.MaxValue;
         }
-        public float AverageGrade;
-        public float HighestGrade;
-        public float lowestGrade;
+        public float AverageGrade = 0.0f; 
+        public float HighestGrade; 
+        public float lowestGrade;  
     }
 }
